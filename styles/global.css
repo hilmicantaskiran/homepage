@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Inter';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+    src: url('/fonts/Inter-roman.var.woff2?v=3.15') format('woff2');
+  }
+}
+
+@layer components {
+  .site-container {
+    @apply font-sans max-w-5xl mx-auto px-6 
+  }
+
+  .site-4xl-container {
+    @apply max-w-4xl mx-auto
+  }
+
+  .center {
+    @apply lg:max-w-sm lg:w-full sm:w-1/2 w-4/5
+  }
+}
