@@ -9,7 +9,7 @@ function HomePage() {
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className="title-font sm:text-5xl text-4xl mb-4 font-bold">Hi! I am Hilmi Can.</h1>
             <p className="mb-10 leading-relaxed">I am 3rd-year software engineer student at Adnan Menderes University. I am developing web and mobile applications. Furthermore, I am learning machine learning and natural language processing. I do open source developments on 
-                <a href="https:www.github.com/hilmicantaskiran" className="px-1 font-bold">Github</a>.
+                <a href="https://www.github.com/hilmicantaskiran/" className="px-1 font-bold">Github</a>.
             </p>
             <div>
               <p className="font-bold">Reach me at:</p>
