@@ -13,8 +13,7 @@ export default function PostPage({ post }) {
         <h1 className="text-3xl md:text-4xl font-bold mt-10">{post.frontMatter.title}</h1>
         <p className="my-4">{post.frontMatter.excerpt}</p>
         <hr className="my-4" />
-
-        <div className="prose-white">{content}</div>
+        <div className="prose-white pb-10">{content}</div>
       </article>
     </div>
   )
