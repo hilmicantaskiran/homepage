@@ -11,7 +11,7 @@ function BlogPage({ posts }) {
             <article key={post.url}>
               <h2 className="text-2xl md:text-3xl font-bold">
                 <Link href={post.url}>
-                  <a>{post.frontMatter.title}</a>
+                  <a className="hover">{post.frontMatter.title}</a>
                 </Link>
               </h2>
               <p className="tracking-tighter">{post.frontMatter.excerpt}</p>

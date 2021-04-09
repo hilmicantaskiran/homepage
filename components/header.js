@@ -6,15 +6,15 @@ export default function Header() {
       <nav className="flex md:flex-row">
         <div className="">
           <Link href="/">
-            <a className=" font-medium">hilmicantaskiran</a>
+            <a className="hover font-medium">hilmicantaskiran</a>
           </Link>
         </div>
         <div className="space-x-4 ml-auto">
           <Link href="/">
-            <a>home</a>
+            <a className="hover">home</a>
           </Link>
           <Link href="/blog">
-            <a>blog</a>
+            <a className="hover">blog</a>
           </Link>
         </div>
       </nav>

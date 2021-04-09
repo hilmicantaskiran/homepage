@@ -9,18 +9,18 @@ function HomePage() {
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
             <h1 className="title-font sm:text-5xl text-4xl mb-4 font-bold">Hi! I am Hilmi Can.</h1>
             <p className="mb-10 leading-relaxed">I am 3rd-year software engineer student at Adnan Menderes University. I am developing web and mobile applications. Furthermore, I am learning machine learning and natural language processing. I do open source developments on 
-                <a href="https://www.github.com/hilmicantaskiran/" className="px-1 font-bold">Github</a>.
+                <a href="https://www.github.com/hilmicantaskiran/" className="hover px-1 font-bold">Github</a>.
             </p>
             <div>
               <p className="font-bold">Reach me at:</p>
               <p className="flex space-x-2">
-                <a href="mailto: hlmtaskiran76@gmail.com">email</a>
-                <a href="https://www.linkedin.com/in/hilmicantaskiran/">linkedin</a>
-                <a href="https://twitter.com/hlmcntskrn">twitter</a>
-                <a href="https://www.instagram.com/hilmicantas/?hl=tr">instagram</a>
+                <a href="mailto: hlmtaskiran76@gmail.com" className="hover">email</a>
+                <a href="https://www.linkedin.com/in/hilmicantaskiran/" className="hover">linkedin</a>
+                <a href="https://twitter.com/hlmcntskrn" className="hover">twitter</a>
+                <a href="https://www.instagram.com/hilmicantas/?hl=tr" className="hover">instagram</a>
               </p>
             </div>
-          </div>
+          </div>  
         </div>
         <div className="text-gray-400 body-font lg:absolute sm:relative absolute inset-x-0 bottom-4 md:bottom-6">
             <div className="site-4xl-container mx-auto center flex flex-row items-center text-xs">

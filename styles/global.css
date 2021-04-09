@@ -24,4 +24,8 @@
   .center {
     @apply lg:max-w-sm lg:w-full sm:w-1/2 w-4/5
   }
+
+  .hover{
+    @apply text-white hover:text-blue-800
+  }
 }
