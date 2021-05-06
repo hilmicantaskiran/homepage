@@ -23,7 +23,7 @@ function HomePage() {
           </div>  
         </div>
         <div className="text-gray-400 body-font lg:absolute sm:relative absolute inset-x-0 bottom-4 md:bottom-6">
-            <div className="site-4xl-container mx-auto center flex flex-row items-center text-xs">
+            <div className="site-4xl-container mx-auto center flex flex-row items-center justify-center text-xs">
                 <p>Designed in</p>
                 <a href="https://www.figma.com/file/hYD084Uab2OxUkxz7II3WK/portfolio?node-id=0%3A1">
                     <img className="p-1" alt="" src="/icons/figma.svg"></img> 
