@@ -1,4 +1,4 @@
-import '../styles/global.css'
+import '../main.css'
 import Head from 'next/head'
 import Header from '../components/header'
 import { Auth0Provider } from "@auth0/auth0-react";

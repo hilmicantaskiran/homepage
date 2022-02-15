@@ -9,19 +9,20 @@
     "start": "next start"
   },
   "dependencies": {
-    "@auth0/auth0-react": "^1.5.0",
-    "@tailwindcss/typography": "^0.4.0",
-    "next": "^10.0.9",
-    "next-mdx": "^0.5.1",
+    "@auth0/auth0-react": "^1.9.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "latest": "^0.2.0",
+    "next": "^12.0.10",
+    "next-mdx": "^0.6.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@tailwindcss/jit": "^0.1.15",
+    "@tailwindcss/jit": "^0.1.18",
     "@tailwindcss/ui": "^0.7.2",
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.8",
-    "prettier": "^2.2.1",
-    "tailwindcss": "^2.0.4"
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.0.22"
   }
 }
