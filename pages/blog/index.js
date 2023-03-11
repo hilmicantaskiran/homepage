@@ -2,7 +2,6 @@ import Link from 'next/link'
 import { getAllNodes } from 'next-mdx/server'
 
 function BlogPage({ posts }) {
-  console.log(posts)
   return (
     <div className="site-container">
       <div className="my-10">
@@ -10,8 +9,8 @@ function BlogPage({ posts }) {
           return (
             <article key={post.url}>
               <h2 className="text-2xl md:text-3xl font-bold">
-                <Link href={post.url}>
-                  <a className="hover">{post.frontMatter.title}</a>
+                <Link href={post.url} className="hover">
+                  {post.frontMatter.title}
                 </Link>
               </h2>
               <p className="tracking-tighter">{post.frontMatter.excerpt}</p>

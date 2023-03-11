@@ -5,16 +5,16 @@ export default function Header() {
     <header className="site-container py-6">
       <nav className="flex md:flex-row">
         <div className="">
-          <Link href="/">
-            <a className="hover font-medium">hilmicantaskiran</a>
+          <Link href="/" className="hover font-medium">
+            hilmicantaskiran
           </Link>
         </div>
         <div className="space-x-4 ml-auto">
-          <Link href="/">
-            <a className="hover">home</a>
+          <Link href="/" className="hover">
+            home
           </Link>
-          <Link href="/blog">
-            <a className="hover">blog</a>
+          <Link href="/blog" className="hover">
+            blog
           </Link>
         </div>
       </nav>

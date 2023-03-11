@@ -26,6 +26,6 @@
   }
 
   .hover{
-    @apply text-white hover:text-blue-800
+    @apply text-white hover:text-[#575757]
   }
 }
